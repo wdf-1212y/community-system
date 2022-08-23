@@ -1,0 +1,34 @@
+.index-title{
+  color: #ce0b07;
+  text-align: center;
+  margin: 0 auto;
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+}
+.line-container{
+  text-align: center;
+  background: url(../img/line.jpg) left center repeat-x;
+}
+.line{
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 22px;
+  background: #fff;
+  color: #000;
+  line-height: 1.4;
+}
+.more{
+	text-align: center;
+	margin-top: 10px;
+}
+.more button{
+	border: 1px solid #C9C9C9;
+	color: #555;
+	background-color: #fff;
+	padding: 5px 10px;
+  margin-bottom: 15px;
+}
+.more:hover{
+	border-color: #ce0b07;
+}

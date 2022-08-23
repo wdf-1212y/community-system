@@ -1,0 +1,74 @@
+/* 头部导航栏 */
+.header {
+  min-width: 1226px;
+  background: #f1f1f1;
+  height: 100px;
+  line-height: 100px;
+}
+.header .container {
+  width: 1226px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .header-logo {
+  width: 62px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.header img {
+  height: 60px;
+  display: block;
+}
+.header-nav .nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 18px;
+  position: relative;
+  left: 40px;
+}
+.header-nav .nav-list a {
+  text-decoration: none;
+  user-select: none;
+  color: #333;
+  padding: 0 20px;
+}
+.header-nav .nav-list a:hover {
+  color: #ce0b07;
+}
+.nav-list .nav-item::after{
+  background-color: #ce0b07;
+  content: '';
+  top: auto;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.lf {
+  width: 240px;
+  height: 48px;
+  font-size: 14px;
+  display: flex;
+}
+.rt ul li {
+  margin: 0px;
+  padding: 0px 14px;
+  border: none;
+  list-style: none;
+  color: #333;
+}
+.rt a {
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+}
+.rt a:hover {
+  color: #ce0b07;
+}
+.rt a:focus {
+  color: #ce0b07;
+}

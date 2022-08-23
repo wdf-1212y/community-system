@@ -1,0 +1,66 @@
+/* 页脚 */
+#footer{
+  min-width: 1226px;
+  background: #f1f1f1;
+}
+#footer .top{
+	width: 1226px;
+	text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+#footer .block{
+	color: #5d5a5a;
+}
+#footer .head{
+  width: 360px;
+  position: relative;
+  margin: 8px 0;
+}
+#footer img{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 22px;
+}
+#footer .text{
+	font-size: 24px;
+  text-align: center;
+  user-select: none;
+}
+#footer hr{
+  border: 1px dashed #ccc;
+  width: 200px;
+  margin-left: 120px;
+}
+#footer ul{
+  list-style-type: none;
+	line-height: 2.5;
+}
+#footer li a{
+  text-decoration: none;
+  user-select: none;
+	font-size: 20px;
+  color: inherit;
+	transition: 1s ease;
+	-o-transition: 1s ease;
+	-webkit-transition: 1s ease;
+}
+#footer li a:hover{
+	color: #ce0b07;
+}
+#footer .bottom{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background-color: #000000;
+	border-top: 1px solid #444;
+	color: #777;
+}
+.bottom a{
+  text-decoration: none;
+  user-select: none;
+	color: #777;
+}
